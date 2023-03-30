@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="pixel_filter_percent_options">
+        <item>不使用</item>
+        <item>使用</item>
+    </array>
+    <array name="pixel_filter_percent_values">
+        <item>@null</item>
+        <item>4</item>
+    </array>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <SwitchPreference android:id="@+id/preference_enable_service_switch" android:thumb="@android:color/white" android:title="@string/enable" android:key="serviceEnabled" android:defaultValue="false"/>
+    <Preference android:persistent="false" android:title="@string/brightness" android:selectable="false" android:key="brightness"/>
+    <Preference android:persistent="false" android:title="@string/lux" android:selectable="false" android:key="lux"/>
+    <ListPreference android:entries="@array/pixel_filter_percent_options" android:title="@string/pixel_filter_percent" android:key="pixelFilterPercent" android:defaultValue="0" android:positiveButtonText="@null" android:negativeButtonText="@null" android:entryValues="@array/pixel_filter_percent_values"/>
+    <org.p024js.oledsaver.view.MinBrightnessSettingPreference app:default_value="200" app:key="miniumScreenBrightness" app:summary="" app:title="@string/minimum_screen_brightness"/>
+    <PreferenceScreen android:persistent="false" android:title="@string/settings" android:key="advanced">
+        <CheckBoxPreference android:title="@string/exclude_from_recents" android:key="excludeFromRecents"/>
+        <CheckBoxPreference android:title="@string/enable_when_boot_up" android:key="enableWhenBootUp"/>
+        <Preference android:persistent="false" android:title="@string/brightness_correction" android:selectable="true" android:key="brightnessCorrection"/>
+    </PreferenceScreen>
+</PreferenceScreen>
