@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="abc_config_activityDefaultDur">220</integer>
+    <integer name="abc_config_activityShortDur">150</integer>
+    <integer name="cancel_button_image_alpha">127</integer>
+    <integer name="config_autoBrightnessAmbientLightHorizon">10000</integer>
+    <integer name="config_autoBrightnessBrighteningLightDebounce">2000</integer>
+    <integer name="config_autoBrightnessDarkeningLightDebounce">4000</integer>
+    <integer name="config_autoBrightnessInitialLightSensorRate">-1</integer>
+    <integer name="config_autoBrightnessLightSensorRate">250</integer>
+    <integer name="config_brightness_ramp_rate_fast">200</integer>
+    <integer name="config_brightness_ramp_rate_slow">60</integer>
+    <integer name="config_lightSensorWarmupTime">0</integer>
+    <integer name="config_screenBrightnessDark">1</integer>
+    <integer name="config_screenBrightnessDim">15</integer>
+    <integer name="config_screenBrightnessDoze">13</integer>
+    <integer name="config_screenBrightnessForVrSettingDefault">140</integer>
+    <integer name="config_screenBrightnessForVrSettingMaximum">255</integer>
+    <integer name="config_screenBrightnessForVrSettingMinimum">140</integer>
+    <integer name="config_screenBrightnessSettingDefault">98</integer>
+    <integer name="config_screenBrightnessSettingMaximum">255</integer>
+    <integer name="config_screenBrightnessSettingMinimum">1</integer>
+    <integer name="config_shutdownBatteryTemperature">600</integer>
+    <integer name="config_tooltipAnimTime">150</integer>
+    <integer name="status_bar_notification_info_maxnum">999</integer>
+</resources>

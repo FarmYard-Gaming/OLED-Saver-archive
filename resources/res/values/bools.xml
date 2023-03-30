@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="abc_action_bar_embed_tabs">true</bool>
+    <bool name="abc_allow_stacked_button_bar">false</bool>
+    <bool name="abc_config_actionMenuItemAllCaps">true</bool>
+    <bool name="config_allowAutoBrightnessWhileDozing">false</bool>
+    <bool name="config_animateScreenLights">false</bool>
+    <bool name="config_autoBrightnessResetAmbientLuxAfterWarmUp">true</bool>
+    <bool name="config_automatic_brightness_available">true</bool>
+    <bool name="config_displayBlanksAfterDoze">true</bool>
+    <bool name="config_displayBrightnessBucketsInDoze">false</bool>
+    <bool name="config_skipScreenOnBrightnessRamp">false</bool>
+</resources>

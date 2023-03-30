@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <fraction name="config_autoBrightnessAdjustmentMaxGamma">299.9969%</fraction>
+    <fraction name="config_screenAutoBrightnessDozeScaleFactor">100%</fraction>
+</resources>
