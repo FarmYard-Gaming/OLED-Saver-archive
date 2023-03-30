@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:background="@drawable/round_background" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="horizontal" android:id="@+id/wizard_settings_top" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+            <ImageButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="?attr/actionModeCloseDrawable" style="@style/Widget.AppCompat.Button.Borderless"/>
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="5">
+            <TextView android:textSize="18sp" android:textStyle="bold" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Modefy system settings" android:layout_centerVertical="true"/>
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@+id/wizard_settings_top">
+        <RelativeLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"/>
+        <RelativeLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="5">
+            <ImageView android:id="@+id/wizard_settings_icon" android:padding="5dp" android:layout_width="80dp" android:layout_height="80dp" android:src="@mipmap/ic_launcher"/>
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_toRightOf="@+id/wizard_settings_icon" android:layout_alignTop="@+id/wizard_settings_icon" android:layout_alignBottom="@+id/wizard_settings_icon">
+                <TextView android:gravity="center" android:layout_width="wrap_content" android:layout_height="0dp" android:text="@string/app_name" android:layout_weight="3"/>
+                <TextView android:textColor="@android:color/darker_gray" android:gravity="center" android:layout_width="wrap_content" android:layout_height="0dp" android:text="1.3" android:layout_weight="3"/>
+            </LinearLayout>
+            <RelativeLayout android:padding="10dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@+id/wizard_settings_icon">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Allow modefying system settings" android:layout_centerVertical="true"/>
+                <Switch android:id="@+id/wizard_settings_switch" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+            </RelativeLayout>
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

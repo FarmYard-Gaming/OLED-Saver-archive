@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="horizontal" android:id="@+id/set_layout" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <Button android:id="@+id/set_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="设置最大亮度" android:layout_weight="1"/>
+        <EditText android:id="@+id/set_text" android:layout_width="100dp" android:layout_height="wrap_content" android:singleLine="true" android:maxLength="4" android:digits="1234567890" android:layout_weight="4" android:inputType="phone"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/read_layout" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <Button android:id="@+id/read_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="读取亮度" android:layout_weight="1"/>
+        <TextView android:id="@+id/read_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="4"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent" style="@style/Widget.AppCompat.Button.Borderless">
+        <Switch android:id="@+id/switch2" android:paddingRight="20dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+        <TextView android:textSize="18sp" android:padding="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/enable" android:layout_centerVertical="true"/>
+    </RelativeLayout>
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent" style="@style/Widget.AppCompat.Button.Borderless">
+        <TextView android:textSize="18sp" android:id="@+id/textView3" android:padding="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/brightness" android:layout_centerVertical="true"/>
+        <TextView android:textSize="18sp" android:padding="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="50" android:layout_toRightOf="@+id/textView3" android:layout_centerVertical="true"/>
+        <TextView android:padding="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+    </RelativeLayout>
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent" style="@style/Widget.AppCompat.Button.Borderless">
+        <TextView android:textSize="18sp" android:id="@+id/textView4" android:padding="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lux" android:layout_centerVertical="true"/>
+        <TextView android:textSize="18sp" android:padding="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="10" android:layout_toRightOf="@+id/textView4" android:layout_centerVertical="true"/>
+        <TextView android:padding="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+    </RelativeLayout>
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent" style="@style/Widget.AppCompat.Button.Borderless">
+        <TextView android:textSize="18sp" android:id="@+id/wizard_main_pixel_filter" android:padding="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/pixel_filter_percent" android:layout_alignParentLeft="false" android:layout_centerVertical="true"/>
+        <TextView android:padding="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+    </RelativeLayout>
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/Widget.AppCompat.Button.Borderless">
+        <TextView android:textSize="18sp" android:textStyle="bold" android:id="@+id/wizard_main_min_brightness" android:padding="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/minimum_screen_brightness" android:layout_centerVertical="true"/>
+        <TextView android:textSize="18sp" android:textColor="@android:color/darker_gray" android:padding="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="255" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+    </RelativeLayout>
+</LinearLayout>

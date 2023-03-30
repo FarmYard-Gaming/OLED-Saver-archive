@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:background="@drawable/round_background" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <RelativeLayout android:id="@+id/wizard_accessibllity_step1" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:id="@+id/wizard_settings_top" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+                <ImageButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="?attr/actionModeCloseDrawable" style="@style/Widget.AppCompat.Button.Borderless"/>
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="5">
+                <TextView android:textSize="18sp" android:textStyle="bold" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Accessibility" android:layout_centerVertical="true"/>
+            </RelativeLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@+id/wizard_accessiablity_step1_click" android:padding="10dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@+id/wizard_settings_top" style="@style/Widget.AppCompat.Button.Borderless">
+            <RelativeLayout android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+                <ImageView android:id="@+id/wizard_settings_icon" android:padding="5dp" android:layout_width="80dp" android:layout_height="80dp" android:src="@mipmap/ic_launcher" android:layout_alignParentBottom="true" android:layout_centerVertical="false" android:layout_alignParentEnd="false"/>
+            </RelativeLayout>
+            <RelativeLayout android:padding="10dp" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="5">
+                <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@+id/wizard_accessibility_title">
+                    <TextView android:gravity="center" android:layout_width="wrap_content" android:layout_height="0dp" android:text="@string/app_name" android:layout_weight="3"/>
+                    <TextView android:textColor="@android:color/darker_gray" android:gravity="center" android:layout_width="wrap_content" android:layout_height="0dp" android:text="Off" android:layout_weight="3"/>
+                </LinearLayout>
+                <RelativeLayout android:id="@+id/wizard_accessibility_title" android:paddingTop="10dp" android:paddingBottom="10dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Downloaded services" android:layout_centerVertical="true"/>
+                </RelativeLayout>
+            </RelativeLayout>
+        </LinearLayout>
+    </RelativeLayout>
+    <RelativeLayout android:id="@+id/wizard_accessibllity_step2" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@+id/wizard_accessibllity_step1">
+        <LinearLayout android:orientation="horizontal" android:id="@+id/wizard_settings_step2_top" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+                <ImageButton android:id="@+id/wizard_accessibllity_step2_back" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="?attr/actionModeCloseDrawable" style="@style/Widget.AppCompat.Button.Borderless"/>
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="5">
+                <TextView android:textSize="18sp" android:textStyle="bold" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/app_name" android:layout_centerVertical="true"/>
+            </RelativeLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:padding="10dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@+id/wizard_settings_step2_top">
+            <RelativeLayout android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1"/>
+            <RelativeLayout android:padding="10dp" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="5">
+                <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <Switch android:id="@+id/switch1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Use service" android:layout_centerVertical="true"/>
+                </RelativeLayout>
+            </RelativeLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

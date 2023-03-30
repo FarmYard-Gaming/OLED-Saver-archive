@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <EditText android:gravity="top|left|center_vertical|center_horizontal|center" android:id="@+id/report_edittext" android:layout_width="match_parent" android:layout_height="match_parent" android:minLines="6" android:layout_centerHorizontal="true" android:inputType="textMultiLine"/>
+    <Button android:textColor="@android:color/background_dark" android:id="@+id/report_button" android:layout_width="100dp" android:layout_height="50dp" android:text="@string/report" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" style="@style/Widget.AppCompat.Button.Borderless"/>
+</RelativeLayout>
